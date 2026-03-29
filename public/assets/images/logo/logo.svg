@@ -1,0 +1,8 @@
+<svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimalist headphone icon -->
+  <path d="M8 24 C8 16, 12 10, 20 10 C28 10, 32 16, 32 24" stroke="#1a1a1a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <rect x="6" y="22" width="6" height="10" rx="2" fill="#1a1a1a"/>
+  <rect x="28" y="22" width="6" height="10" rx="2" fill="#1a1a1a"/>
+  <!-- Brand text -->
+  <text x="42" y="26" font-family="'Jost', 'Helvetica Neue', sans-serif" font-size="22" font-weight="700" fill="#1a1a1a" letter-spacing="-0.5">Hivio</text>
+</svg>

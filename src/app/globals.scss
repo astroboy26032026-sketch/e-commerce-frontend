@@ -1,0 +1,418 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'swiper/css/bundle';
+@import '../../public/assets/css/flaticon_hivio.css';
+@import '../../public/assets/css/font-awesome-pro.css';
+@import '../../public/assets/scss/main.scss';
+
+/* ===== Hivio - Minimalist Theme ===== */
+
+/* Global clean base */
+body {
+  font-family: 'Jost', sans-serif !important;
+  color: #666666;
+  background-color: #ffffff;
+}
+
+/* Headings - clean black */
+h1, h2, h3, h4, h5, h6,
+.tp-section-title-5,
+.tp-slider-title-5,
+.tp-deal-title,
+.tp-footer-widget-title,
+.tp-product-title-5 a,
+.tp-product-details-title,
+.breadcrumb__title,
+.tp-login-title {
+  font-family: 'Jost', sans-serif !important;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+/* Section pre-titles - subtle uppercase */
+.tp-section-title-pre-5,
+.tp-deal-title-pre {
+  font-family: 'Jost', sans-serif !important;
+  color: #999999 !important;
+  letter-spacing: 3px;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* ===== Buttons - solid black minimalist ===== */
+.tp-btn-green,
+.tp-btn {
+  background-color: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+  color: #ffffff !important;
+  font-family: 'Jost', sans-serif !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.tp-btn-green:hover,
+.tp-btn:hover {
+  color: #ffffff !important;
+}
+
+.tp-btn-green:hover,
+.tp-btn:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+.tp-btn-green-sm {
+  background-color: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+}
+
+.tp-btn-green-sm:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+/* Product action buttons hover */
+.tp-product-action-greenStyle .tp-product-action-btn-2:hover {
+  background-color: #1a1a1a !important;
+}
+
+/* Cart sidebar style */
+.cartmini__style-green .cartmini__top {
+  background-color: #1a1a1a !important;
+}
+.cartmini__style-green .cartmini__top h4,
+.cartmini__style-green .cartmini__top-title h4 {
+  color: #ffffff !important;
+}
+.cartmini__style-green .cartmini__close-btn i {
+  color: #ffffff !important;
+}
+
+/* Header navigation */
+.tp-main-menu-content > ul {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  white-space: nowrap !important;
+  gap: 0;
+}
+.tp-main-menu-content ul li a,
+.tp-header-login-content-5 p {
+  font-family: 'Jost', sans-serif !important;
+}
+/* Remove dot/marker on menu links */
+.tp-main-menu-content ul li > a::before {
+  display: none !important;
+}
+
+/* ===== Footer - light grey clean ===== */
+.tp-footer-area {
+  background-color: #f5f5f5 !important;
+  border-top: 1px solid #ebebeb;
+}
+
+.tp-footer-desc,
+.tp-footer-widget-content ul li a {
+  font-family: 'Jost', sans-serif !important;
+  color: #666666;
+}
+
+.tp-footer-widget-title {
+  color: #1a1a1a !important;
+  border-bottom: none !important;
+  padding-bottom: 0;
+  font-weight: 600 !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ===== Weekly deal section ===== */
+.tp-deal-area {
+  background-color: #f5f5f5 !important;
+}
+
+/* Testimonial */
+.tp-testimonial-content-5 p,
+.tp-testimonial-user-5-title {
+  font-family: 'Jost', sans-serif !important;
+}
+
+/* Feature area */
+.tp-feature-title-5 {
+  font-family: 'Jost', sans-serif !important;
+}
+
+/* Contact dot */
+.tp-hotspot .tp-pulse-border circle {
+  fill: #1a1a1a !important;
+}
+
+/* ===== Product cards - minimal clean ===== */
+.tp-product-item-5 {
+  border: 1px solid #ebebeb;
+  transition: all 0.3s ease;
+  background: #ffffff;
+}
+
+.tp-product-item-5:hover {
+  border-color: #d4d4d4;
+  box-shadow: none;
+}
+
+/* Product price - green accent like WoodMart */
+.tp-product-price-5 .new-price,
+.tp-product-price-wrapper-5 .tp-product-price-5 {
+  color: #83b735 !important;
+}
+
+/* ===== Breadcrumb - clean white ===== */
+.breadcrumb__area {
+  background-color: #ffffff !important;
+}
+
+.breadcrumb__title {
+  font-family: 'Jost', sans-serif !important;
+  color: #1a1a1a !important;
+  font-weight: 700;
+}
+
+/* Category slider */
+.tp-category-title {
+  font-family: 'Jost', sans-serif !important;
+}
+
+/* Scrollbar - dark */
+.tp-swiper-scrollbar .swiper-scrollbar-drag {
+  background-color: #1a1a1a !important;
+}
+
+/* Shop sidebar */
+.tp-shop-widget-title {
+  font-family: 'Jost', sans-serif !important;
+  color: #1a1a1a !important;
+  border-bottom: 1px solid #ebebeb !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Checkout */
+.tp-checkout-bill-title,
+.tp-checkout-place-title {
+  font-family: 'Jost', sans-serif !important;
+  color: #1a1a1a !important;
+}
+
+.tp-checkout-place {
+  background-color: #ffffff !important;
+}
+
+.tp-order-info-list ul li h4,
+.tp-order-info-list ul li span,
+.tp-order-info-list ul li p,
+.tp-order-info-list-header h4 {
+  color: #1a1a1a !important;
+}
+
+.tp-order-info-list-desc p {
+  color: #666666 !important;
+}
+
+.tp-order-info-list-desc span,
+.tp-order-info-list-subtotal span,
+.tp-order-info-list-total span {
+  color: #1a1a1a !important;
+}
+
+.tp-order-info-list-shipping span,
+.tp-order-info-list-shipping label {
+  color: #666666 !important;
+}
+
+.tp-order-info-list-shipping label span {
+  color: #1a1a1a !important;
+  font-weight: 600;
+}
+
+.tp-order-info-list-total span:last-child {
+  color: #83b735 !important;
+  font-weight: 700;
+}
+
+.tp-checkout-payment label {
+  color: #1a1a1a !important;
+}
+
+.tp-checkout-btn {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  font-family: 'Jost', sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tp-checkout-btn:hover {
+  background-color: #333333 !important;
+}
+
+/* Product details accent */
+.tp-product-details-query-item span {
+  color: #1a1a1a;
+}
+
+/* ===== Side banner - light grey ===== */
+.tp-product-side-banner {
+  background-color: #f5f5f5 !important;
+  border: 1px solid #ebebeb;
+}
+
+.tp-product-side-banner-title {
+  font-family: 'Jost', sans-serif !important;
+  color: #1a1a1a !important;
+}
+
+/* Best sell section */
+.tp-best-banner-thumb-5 {
+  border: 1px solid #ebebeb;
+}
+
+/* Pagination/nav active */
+.tp-product-tab-5 .nav-link {
+  border: none !important;
+  border-bottom: none !important;
+  color: #999999 !important;
+  font-weight: 400 !important;
+  transition: color 0.2s ease;
+}
+.tp-product-tab-5 .nav-link.active {
+  color: #1a1a1a !important;
+  border: none !important;
+  border-bottom: none !important;
+  font-weight: 600 !important;
+}
+.tp-product-tab-5 .nav-link:hover {
+  color: #1a1a1a !important;
+}
+.tp-tab-line {
+  display: none !important;
+}
+
+/* ===== Cart table ===== */
+.tp-cart-checkout-btn {
+  background-color: #1a1a1a !important;
+  font-family: 'Jost', sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tp-cart-checkout-btn:hover {
+  background-color: #333333 !important;
+}
+
+/* Search form */
+.tp-header-search-input-box-5 button {
+  background-color: #1a1a1a !important;
+}
+
+/* Coupon area */
+.tp-coupon-item {
+  border: 1px solid #ebebeb;
+}
+
+/* Error page */
+.tp-error-area .tp-btn {
+  background-color: #1a1a1a !important;
+}
+
+/* ===== Rating stars ===== */
+.tp-product-details-rating span i,
+.tp-testimonial-rating-5 span i {
+  color: #ffc107 !important;
+}
+
+/* Login/Register shapes */
+.tp-login-shape {
+  opacity: 0.1;
+}
+
+/* Newsletter/CTA area */
+.tp-cta-title {
+  font-family: 'Jost', sans-serif !important;
+  color: #fff !important;
+}
+
+/* ===== Minimalist clean overrides ===== */
+
+/* Remove all heavy shadows */
+* {
+  text-shadow: none !important;
+}
+
+/* Clean transitions */
+a, button, .nav-link {
+  transition: all 0.2s ease !important;
+}
+
+/* Clean modals */
+.tp-product-modal,
+.cartmini__wrapper {
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Clean form inputs */
+.tp-login-input input,
+.tp-contact-input input,
+.tp-contact-input textarea,
+.tp-checkout-input input,
+.tp-checkout-input textarea {
+  border-color: #ebebeb !important;
+  font-family: 'Jost', sans-serif !important;
+  transition: border-color 0.2s ease;
+}
+
+.tp-login-input input:focus,
+.tp-contact-input input:focus,
+.tp-contact-input textarea:focus,
+.tp-checkout-input input:focus,
+.tp-checkout-input textarea:focus {
+  border-color: #1a1a1a !important;
+}
+
+/* Product SM section titles */
+.tp-product-sm-section-title {
+  font-family: 'Jost', sans-serif !important;
+  color: #1a1a1a;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Header action count badge */
+.tp-header-action-badge-5 {
+  background-color: #83b735 !important;
+}
+
+/* Section titles - clean underline */
+.tp-section-title-5 {
+  font-weight: 700 !important;
+  font-size: 28px;
+}
+
+/* Product title links */
+.tp-product-title-5 a {
+  font-weight: 500 !important;
+  font-size: 15px;
+}
+
+.tp-product-title-5 a:hover {
+  color: #83b735 !important;
+}
+
+/* Category items */
+.tp-category-title {
+  font-weight: 500 !important;
+  text-transform: capitalize;
+}

@@ -157,7 +157,7 @@ export default function CheckoutArea() {
                               {product.title} <span> x {product.orderQuantity}</span>
                             </p>
                             <span>
-                              {formatPrice(product.orderQuantity && product.price * product.orderQuantity)}
+                              {formatPrice(product.price * (product.orderQuantity ?? 0))}
                             </span>
                           </li>
                           ))}

@@ -97,7 +97,7 @@ export default function OrderArea({order}:IProps) {
                     <td>{item.title}</td>
                     <td>{item.orderQuantity}</td>
                     <td>{formatPrice(item.price)}</td>
-                    <td>{formatPrice(item.orderQuantity && item.price * item.orderQuantity)}</td>
+                    <td>{formatPrice(item.price * (item.orderQuantity ?? 0))}</td>
                   </tr>
                 ))}
               </tbody>

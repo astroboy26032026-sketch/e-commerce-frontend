@@ -71,7 +71,7 @@ export default function useCheckoutSubmit() {
     });
   
     if (error) {
-      toast.error('Lỗi thanh toán: ' + (error as Error).message);
+      toast.error('Lỗi thanh toán: ' + (error as unknown as Error).message);
       setLoading(false); // Reset loading state in case of error
       return;
     }
